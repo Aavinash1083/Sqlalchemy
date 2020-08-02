@@ -3,7 +3,7 @@ from sqlalchemy.orm import foreign, mapper, relationship, Session
 from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 class Actor_Score(Base):
-    __tablename__ = "ActorScore"
+    __tablename__ = 'ActorScore'
     name = Column(String, primary_key=True)
     movie = Column(String)
     year = Column(Integer)
